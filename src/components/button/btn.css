@@ -1,0 +1,12 @@
+.btnClass {
+  all: unset;
+  cursor: pointer;
+}
+
+.depressedBtn {
+  @apply bg-primary-d text-white rounded-full text-lg px-5 py-3;
+}
+
+.textBtn {
+  @apply bg-transparent text-lg text-primary-d px-0 py-0 tracking-wide;
+}
